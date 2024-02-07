@@ -1,0 +1,79 @@
+:root {
+    --text: rgba(255, 255, 255, 0.89);
+    --green: #18d26e;
+    --textSubtitle: #aaa;
+    --background: rgba(0, 0, 0, 0.6);
+    --progress-background: rgba(255, 255, 255, 0.2);
+    --icon-yellow: rgba(224, 169, 93);
+    --contact-background: rgb(4, 4, 4);
+    --cards-background: rgba(255, 255, 255, 0.08);
+    --cards-icon-background: rgba(255, 255, 255, 0.1);
+    --footer-background: rgb(113 124 119 / 20%);
+}
+
+.dark-mode{
+    /* Dark Theme */
+    --text-dark: rgba(255, 255, 255, 0.89);
+    --green-dark: #18d26e;
+    --textSubtitle-dark: #aaa;
+    --background-dark: rgba(0, 0, 0, 0.6);
+    --progress-background-dark: rgba(255, 255, 255, 0.2);
+    --icon-yellow-dark: rgba(224, 169, 93);
+    --contact-background-dark: rgb(4, 4, 4);
+    --cards-background-dark: rgba(255, 255, 255, 0.08);
+    --cards-icon-background-dark: rgba(255, 255, 255, 0.1);
+    --footer-background-dark: rgb(113, 124, 119, 0.2);
+}
+
+.light-mode {
+    /* Light Theme */
+    --text-light: rgba(0, 0, 0, 0.89);
+    --green-light: #18d26e;
+    --textSubtitle-light: #555;
+    --background-light: rgba(255, 255, 255, 0.9);
+    --progress-background-light: rgba(0, 0, 0, 0.2);
+    --icon-yellow-light: rgba(224, 169, 93);
+    --contact-background-light: rgb(255, 255, 255);
+    --cards-background-light: rgba(0, 0, 0, 0.08);
+    --cards-icon-background-light: rgba(0, 0, 0, 0.1);
+    --footer-background-light: rgb(113, 124, 119, 0.2);
+}
+
+.content {
+    padding-top: 58px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://bootstrapmade.com/demo/templates/DevFolio/assets/img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+/* 
+@media(prefers-color-scheme: dark) {
+    :root {
+        --text: var(--text-dark);
+        --green: var(--green-dark);
+        --textSubtitle: var(--textSubtitle-dark);
+        --background: var(--background-dark);
+        --progress-background: var(--progress-background-dark);
+        --icon-yellow: var(--icon-yellow-dark);
+        --contact-background: var(--contact-background-dark);
+        --cards-background: var(--cards-background-dark);
+        --cards-icon-background: var(--cards-icon-background-dark);
+    }
+}
+
+@media(prefers-color-scheme: light) {
+    :root {
+        --text: var(--text-light);
+        --green: var(--green-light);
+        --textSubtitle: var(--textSubtitle-light);
+        --background: var(--background-light);
+        --progress-background: var(--progress-background-light);
+        --icon-yellow: var(--icon-yellow-light);
+        --contact-background: var(--contact-background-light);
+        --cards-background: var(--cards-background-light);
+        --cards-icon-background: var(--cards-icon-background-light);
+    }
+} */

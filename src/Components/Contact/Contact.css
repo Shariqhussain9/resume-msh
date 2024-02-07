@@ -1,0 +1,121 @@
+.contact-div {
+    margin: 50px 100px;
+    background:var(--contact-background);
+}
+
+.contact_title-div {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.contact_title-subtitle {
+    font-size: 18px;
+    color: var(--textSubtitle);
+}
+
+.contact_title-subtitle::after {
+    content: '';
+    display: inline-block;
+    background: var(--green);
+    width: 120px;
+    height: 1px;
+    margin: 4px 10px;
+}
+
+.contact_title-title {
+    font-size: 28px;
+    letter-spacing: 5px;
+    color: var(--text);
+    font-weight: bold;
+}
+
+.cards_section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    gap: 25px;
+}
+
+.cards {
+    display: flex;
+    background: var(--cards-background);
+    padding: 20px;
+    gap: 10px;
+    width: 45%;
+}
+
+.cards_icon {
+    background: var(--cards-icon-background);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.contact_cards-icon {
+    color: var(--green);
+    font-size: 22px;
+}
+
+.cards_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards_desc-title {
+    font-size: 20px;
+    color: var(--textSubtitle);
+}
+
+.cards_desc-detail {
+    font-size: 14px;
+    color: var(--text);
+}
+
+.msg_section {
+    display: flex;
+    flex-direction: column;
+    background: var(--cards-background);
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.msg_row {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.msg_input {
+    padding: 15px;
+    font-size: 14px;
+    width: 50%;
+    background: var(--cards-icon-background);
+    border: none;
+    color: var(--text);
+}
+
+.msg_input:focus-visible {
+    outline: none;
+}
+
+.subject-input, .message-area  {
+    width: 97%;
+}
+
+.message-area {
+    height: 100px;
+}
+
+.btn {
+    width: 175px;
+    height: 50px;
+    padding: 10px;
+    background: var(--green);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: var(--text);
+}

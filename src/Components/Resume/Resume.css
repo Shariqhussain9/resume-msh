@@ -1,0 +1,93 @@
+.resume {
+    background: var(--background);
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    color: var(--text);
+    flex-direction: column;
+}
+
+.resume_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume_section-subTitle {
+    font-size: 14px;
+    line-height: 1px;
+    letter-spacing: 2px;
+    color: var(--textSubtitle);
+    margin: 0 0 20px 0;
+}
+
+.resume_section-subTitle::after {
+    background:  #4ceb95;
+    display: inline-block;
+    content: "";
+    width: 120px;
+    height: 1px;
+    margin: 4px 10px;
+}
+
+.resume_section-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.resume-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.row_section {
+    width: 50%;
+}
+
+.row_section-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.section-item {
+    padding: 0 0 20px 20px;
+    border-left: 2px solid var(--progress-background);
+    position: relative;
+    margin: 50px 0;
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.section-item::before {
+    content: "";
+    left: -11px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background:  var(--green);
+    border: 2px solid var(--green);
+}
+
+.section-item-title {
+    text-transform: uppercase;
+    color: var(--green); 
+}
+
+.section-item-description {
+    color: var(--text);
+}
+
+.section-item-duration {
+    font-family: "Open Sans", sans-serif;
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    color: var(--text);
+}
+
+em {
+    font-style: italic;
+}

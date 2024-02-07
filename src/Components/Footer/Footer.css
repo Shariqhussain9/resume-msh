@@ -1,0 +1,102 @@
+.footer {
+    padding: 100px;
+    background-image: url('https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg');
+}
+
+.footer-div {
+    padding: 20px;
+    background-color: var(--text);
+    display: flex;
+    gap: 10px;
+    background-color: var(--footer-background);    
+}
+
+.footer-heading {
+    font-weight: 600;
+    font-size: 28px;
+}   
+
+.list-div {
+    width: 50%;
+}
+
+.footer_list {
+    list-style: none;
+}
+
+.footer_list-item {
+    padding: 10px;
+}
+
+.msg-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_msg-heading {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.footer_msg-text, .footer_msg_email-input {
+    width: 70%;
+    height: 150px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+    font-size: 16px;
+    background-color: rgb(175 164 164 / 16%);
+    border: 1px solid;
+    line-height: 1.5;
+    color: #333;
+}
+
+.footer_msg_email-input {
+    height: 22px;
+}
+
+.footer_msg-text:focus, .footer_msg_email-input:focus {
+    outline: none;
+}
+
+.footer_msg-btn {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(40, 144, 235);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer_msg-btn:hover {
+    transform: scale(1.1)
+}
+
+.footer_social-div {
+    display: flex;
+    justify-content: space-evenly;
+    /* border-top: 2px solid var(--text); */
+}
+
+.social-copywrite-div {
+    display: flex;
+    align-items: center;
+}
+
+
+.social-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links {
+    text-decoration: none;
+    color: var(--text);
+}

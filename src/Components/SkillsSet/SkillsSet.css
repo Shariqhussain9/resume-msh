@@ -1,0 +1,28 @@
+.skill-div {
+    background-color: #252525;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    min-height: 450px;
+}
+
+.skill-heading {
+    font-size: 52px;
+}
+
+.skill-prof {
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.skill-des {
+    font-size: 38px;
+}
+
+.skill-doc {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

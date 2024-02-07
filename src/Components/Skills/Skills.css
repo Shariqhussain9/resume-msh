@@ -1,0 +1,139 @@
+.skills {
+  padding: 20px;
+  margin: 50px;
+  background-color: var(--background);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* 
+.category {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #34495e;
+  border: 1px solid #2c3e50;
+  border-radius: 8px;
+  width: 70%;
+}
+
+.category-heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #e74c3c;
+}
+
+.skill-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skill {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #3498db;
+  border: 1px solid #2980b9;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.skill:hover {
+  background-color: #2980b9;
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.skill-heading {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill-description {
+  margin: 0;
+  color: #bdc3c7;
+}
+
+.education {
+  margin: 0;
+  font-style: italic;
+  color: #95a5a6;
+}
+
+.skills-list_item-link {
+  text-decoration: none;
+  color: var(--text);
+} */
+
+
+.skills_title-div {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.skills-heading-subtitle {
+  font-size: 18px;
+  padding-bottom: 5px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.skills-heading-subtitle::after {
+  background: #4ceb95;
+  display: inline-block;
+  content: "";
+  width: 120px;
+  height: 1px;
+  margin: 4px 10px;
+}
+
+.skills-heading-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.skill_category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill_div {
+  padding: 50px 0;
+  width: 32%;
+  height: 200px;
+  background-color: var(--cards-icon-background);
+  text-align: center;
+  cursor: pointer;
+}
+
+.skill_icon-div {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: var(--text);
+  border-radius: 5px;
+  transition: all 0.3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+}
+
+.skill_div:hover {
+  background-color: var(--green);
+}
+
+.skill_div:hover .skill_icon-div {
+  background-color: var(--text);
+}
+
+.skill_div:hover .skill-icons {
+  color: var(--green);  
+}

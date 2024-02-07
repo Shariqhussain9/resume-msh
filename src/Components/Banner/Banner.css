@@ -1,0 +1,38 @@
+.banner {
+    background-image: url('https://bootstrapmade.com/demo/templates/DevFolio/assets/img/hero-bg.jpg');
+    height: 800px;
+    width: 100%;
+    color: var(--text);
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-title-div {
+    padding: 150px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 72px;
+    margin: 10px 0;
+}
+
+.banner-sub_title {
+    font-size: 40px;
+    margin: 0 ;
+}
+
+.cursor-visible {
+    display: inline-block;
+}
+
+.cursor-hidden {
+    display: none;
+}
